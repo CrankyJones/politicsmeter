@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Political Meter</title>
+</head>
+
+<body>
+  <div class="container center-text">
+    <h2> Answer these questions to learn which political party you are aligned with.</h2>
+    <br>
+    <form id="formOne">
+      <h3>How do you feel about reproductive rights?</h3>
+      <div class="radio">
+        <label>
+          <input type="radio" name="rights" value="1" checked>
+          Pro-life
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="rights" value="0" checked>
+          Pro-Choice
+        </label>
+      </div>
+      <br>
+      <h3>How do you feel about healthcare for everyone?</h3>
+      <div class="radio">
+        <label>
+          <input type="radio" name="healthcare" value="1" checked>
+          Yes
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="healthcare" value="0" checked>
+          No
+        </label>
+      </div>
+      <br>
+      <h3>How do you feel about marriage equality?</h3>
+      <div class="radio">
+        <label>
+          <input type="radio" name="marriage" value="1" checked>
+          I support
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="marriage" value="0" checked>
+          I'm against
+        </label>
+      </div>
+      <button type="submit" class="btn btn-warning">Submit Answers</button>
+    </form>
+    <br>
+    <div class="alignment">
+      <div id="left">
+        <h4>You are strongly aligned with the left.</h4>
+      </div>
+      <div id="leanleft">
+        <h4>You are mostly aligned with left.</h4>
+      </div>
+      <div id="right">
+        <h4>You are strongly aligned with the right.</h4>
+      </div>
+      <div id="leanright">
+        <h4>You are mostly aligned with left.</h4>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

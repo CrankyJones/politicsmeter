@@ -1,0 +1,17 @@
+body {
+  background-color: white  ;
+  color: black;
+}
+
+#right{
+  display: none;
+}
+#leanright{
+  display: none;
+}
+#leanleft{
+  display: none;
+}
+#left{
+  display: none;
+}
